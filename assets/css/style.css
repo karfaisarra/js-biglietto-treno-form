@@ -39,3 +39,6 @@ h2{
 .bg_secondary{
     background-color: var(--bt_secondary);
 }
+p{
+    margin-top: 5rem;
+}
