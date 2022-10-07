@@ -1,0 +1,41 @@
+:root{
+    --bt_primary: #B91450;
+    --bt_primary_light: #9C609D;
+    --bt_lighter: #FFFFFF;
+    --bt_darker: #000000;
+    --bt_secondary: #808080;
+    --bt_secondary_light: #CCCCCC;
+}
+body{
+    background-color: var(--bt_primary);
+}
+h2{
+    color: var(--bt_lighter);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 2rem 0;
+}
+.title{
+    color: var(--bt_primary);
+    padding: 1rem 0;
+}
+.input{
+    border: 1px solid var(--bt_primary);
+    border-radius: 5px;
+    height: 25px;
+}
+.bottone1{
+    background-color: var(--bt_secondary_light);
+    color: var(--bt_primary);
+    border: 2px solid var(--bt_primary_light);
+    border-radius: 5px;
+}
+.bottone2{
+    background-color: var(--bt_secondary_light);
+    color: var(--bt_primary);
+    border: 1px solid var(--bt_secondary);
+    border-radius: 5px;
+}
+.bg_secondary{
+    background-color: var(--bt_secondary);
+}
